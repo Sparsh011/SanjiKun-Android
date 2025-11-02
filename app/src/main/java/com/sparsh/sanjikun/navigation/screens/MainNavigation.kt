@@ -1,5 +1,5 @@
 package com.sparsh.sanjikun.navigation.screens
 
-data object LoginScreen
-data object OnboardingScreen
-data object InnerHostScreen
+data object LoginScreen : Screen()
+data object OnboardingScreen : Screen()
+data object InnerHostScreen : Screen()

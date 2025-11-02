@@ -1,5 +1,5 @@
 package com.sparsh.sanjikun.navigation.screens
 
-data object ProfileScreen
-data object VoiceChatScreen
-data object GitHubReposScreen
+data object ProfileScreen : Screen()
+data object VoiceChatScreen : Screen()
+data object GitHubReposScreen : Screen()
