@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "SanjiKun"
 include(":app")
- 
+include(":Android-One-Piece")

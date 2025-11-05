@@ -97,7 +97,7 @@ fun AnimatedLoginContent(
                     Color(0xFFffeaa7),
                     Color.White
                 ),
-                start = Offset(shimmerOffset - 200f, 0f),
+                start = Offset(shimmerOffset - 500f, 0f),
                 end = Offset(shimmerOffset, 100f)
             ),
             shadow = Shadow(
