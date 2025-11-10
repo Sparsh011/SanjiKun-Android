@@ -7,7 +7,9 @@ import androidx.activity.enableEdgeToEdge
 import com.sparsh.sanjikun.navigation.screens.LoginScreen
 import com.sparsh.sanjikun.navigation.utils.AppNavigation
 import com.sparsh.sanjikun.ui.theme.SanjiKunTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
